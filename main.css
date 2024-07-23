@@ -1,0 +1,57 @@
+
+* {
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+header h1 {
+    padding: 15px;
+    margin-left: 50px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#carouselexe {
+    width: 50px 50px 100px 100px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+    background-color: burlywood;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #171717;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        display: block;
+    }
+
+    #cards-js3 {
+        margin-left: 25%;
+    }
+    
+}
